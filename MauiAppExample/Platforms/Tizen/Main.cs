@@ -2,11 +2,11 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace MauiApp
+namespace MauiAppExample
 {
-    internal class Program : MauiApplication
+    internal class Program : MauiAppExamplelication
     {
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+        protected override MauiAppExample CreateMauiAppExample() => MauiProgram.CreateMauiAppExample();
 
         static void Main(string[] args)
         {

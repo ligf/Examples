@@ -1,4 +1,4 @@
-﻿namespace MauiApp
+﻿namespace MauiAppExample
 {
     public partial class MainPage : ContentPage
     {

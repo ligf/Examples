@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Windows Machine": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    },
+    "Remote Profile": {
+      "commandName": "MsixPackage",
+      "remoteDebugEnabled": true,
+      "remoteDebugMachine": "192.168.1.168", // remote client
+      "authenticationMode": "None"
+    }
+  }
+}
